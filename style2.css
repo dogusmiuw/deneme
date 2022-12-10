@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.kategoriler{
+    background-color: #2e2e2e;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+
+}
+
+h1{
+    color: white;
+}
+
+.yan-kisim{
+    background-color: blue;
+    height: 300px;
+    width: 15%;
+    padding: 2rem;
+}
+
+.icerik{
+    background-color: red;
+    height: 400px;
+    width: 70%;
+    padding: 2rem;
+}
+
+.kutu{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.yan-kisim ul {
+    display: block;
+}

@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;;
+}
+
+ul{
+    background-color: blue;
+    height: 100px;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.baslik{
+    font-family: Nerko One;
+    font-size: 70pt;
+}
+
+div{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    text-align: right;
+    font-size: 30px;
+}
+
+div:hover{
+    margin-top: 50px;
+    transition: 500ms;
+}
+div:not(div:hover){
+    transition: 500ms;
+}
+
+a{
+    text-decoration: none;
+    text-align: right;
+    color: red;
+    font-weight: bold;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+/* dıştaki kutu */
+.kutu-1{
+    width: 200px;
+    height: 100px;
+    background-color: blue;
+    border-radius: 15px;
+    border: 5px dashed black;
+    text-align:center;
+    color: white;
+}
+
+/* içteki kutu */
+/*
+.kutu-2{
+    height: 50px;
+    width:100%;
+    background-color: red;
+    color: white;
+    border-radius: 15px;
+}*/
